@@ -43,11 +43,11 @@ export async function generateMetadata({
   };
 
   return {
-    title: locale === "en" ? "Niger Eco | HOME" : "Niger Eco | ACCUEIL",
+    title: locale === "en" ? "NIGER ECO | HOME" : "NIGER ECO | ACCUEIL",
     description:
       locale === "en"
-        ? "Niger Eco is your economic news portal dedicated to Niger"
-        : "Niger Eco est votre portail d'information économique dédié au Niger",
+        ? "NIGER ECO is your economic news portal dedicated to Niger"
+        : "NIGER ECO est votre portail d'information économique dédié au Niger",
 
     // Icônes de navigation
     icons: {
@@ -60,20 +60,20 @@ export async function generateMetadata({
 
     // Balises Open Graph pour Facebook, WhatsApp, etc.
     openGraph: {
-      title: locale === "en" ? "Niger Eco | HOME" : "Niger Eco | ACCUEIL",
+      title: locale === "en" ? "NIGER ECO | HOME" : "NIGER ECO | ACCUEIL",
       description:
         locale === "en"
-          ? "Niger Eco is your economic news portal dedicated to Niger"
-          : "Niger Eco est votre portail d'information économique dédié au Niger",
+          ? "NIGER ECO is your economic news portal dedicated to Niger"
+          : "NIGER ECO est votre portail d'information économique dédié au Niger",
       url: `${siteDomain}/${locale}`,
-      siteName: "Niger Eco",
+      siteName: "NIGER ECO",
       type: "website",
       images: [
         {
           url: `${siteDomain}/${locale}/images/og-image.png`, // 🔧 Met une vraie image (1200x630px)
           width: 1200,
           height: 630,
-          alt: "Aperçu Niger Eco",
+          alt: "Aperçu NIGER ECO",
         },
       ],
     },
@@ -81,11 +81,11 @@ export async function generateMetadata({
     // Twitter card (aperçu sur Twitter/X)
     twitter: {
       card: "summary_large_image",
-      title: locale === "en" ? "Niger Eco | HOME" : "Niger Eco | ACCUEIL",
+      title: locale === "en" ? "NIGER ECO | HOME" : "NIGER ECO | ACCUEIL",
       description:
         locale === "en"
-          ? "Niger Eco is your economic news portal dedicated to Niger"
-          : "Niger Eco est votre portail d'information économique dédié au Niger",
+          ? "NIGER ECO is your economic news portal dedicated to Niger"
+          : "NIGER ECO est votre portail d'information économique dédié au Niger",
       images: [`${siteDomain}/${locale}/images/og-image.png`],
     },
   };
